@@ -1,8 +1,8 @@
 /*Common Elements*/
 body {
     font-size: 67.5%;
-    font-family: Tahoma, Geneva, sans-serif;
-    background: #39150C url(img/paper_1332008.jpg) no-repeat fixed top center;
+    font-family: Lato, Geneva, sans-serif;
+    background: #f2efee;
     padding: 0;
     margin: 0;
     -webkit-background-size: 100% 100%;
@@ -12,14 +12,14 @@ body {
 }
 
 h1 {
-    color: #2BA967;
+    color: #A57C45;
     font-size: 2.0em;
     margin: 0.5em 0 0.5em 0;
     padding: 0;
 }
 
 h2 {
-    color: #745b2f;
+    color: #A57C45;
     font-size: 1.7em;
     padding: 0px;
     margin: 0.5em 0 0.35em 0;
@@ -45,7 +45,7 @@ a, a:visited {
     color: #C64322;
 }
 a:hover {
-    color: #333;
+    color: #e5ba81;
 }
 hr {
     padding: 0;
@@ -73,7 +73,14 @@ div.clear {
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background: #39150C url(img/bg_cheeses_lg_2600w.jpg) center 0px;
+}
+
+.banner-img {
+    background-image: url(assets/doodlebanner.jpg);
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
 }
 header h1 {
     font-family: "Times New Roman", Times, serif;
@@ -86,7 +93,7 @@ header h1 {
 header h2 {
     font-weight: 300;
     font-size: 3.8em;
-    color: #2BA967;
+    color:#745b2f;
     margin: -0.4em 0 0 1.0em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -103,6 +110,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: center;
 }
 nav li {
     display: inline-block;
